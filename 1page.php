@@ -1,10 +1,3 @@
-<?php
-/*
-
-	Template Name: Page Main
-
-*/
-?>
 <?php get_header(); ?>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
@@ -23,7 +16,7 @@ I have also developed Activity Therapy. This incorporates the clients' favorite 
       <div class="row">
         <div class="col-md-4">
           <h2>Groups</h2>
-          <p>Bereavement Group meets every Saturday, 9-10am at 71 Adams Street, Milton, MA.  Walk-ins Welcome.</p>
+          <p>Meets every Saturday, 9-10am at 71 Adams Street, Milton, MA.  Walk-ins Welcome.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
@@ -32,7 +25,7 @@ I have also developed Activity Therapy. This incorporates the clients' favorite 
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-4">
-          <h2>Family and Marital Therapy</h2>
+          <h2>Testimonials</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
         </div>

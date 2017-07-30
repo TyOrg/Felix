@@ -30,9 +30,6 @@ add_action( 'wp_enqueue_scripts', 'theme_js' );
 
 add_filter( 'show_admin_bar', '_return_true' );
 
-
-
-
 add_theme_support( 'menus' );
 
 function register_theme_menus() {
