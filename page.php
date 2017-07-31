@@ -10,18 +10,19 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
         <div class="container">
-<div class="header-container">
-    <div class="header-title">
-        <h2>
-            <?php the_field('header_title'); ?>
-        </h2>
-    </div>
-    <div class="header-meta">
-        <h3>
-            - <?php the_field('header_meta'); ?>
-        </h3>
-    </div>
-</div>
+            <div class="header-container">
+                <div class="header-title">
+                    <h2>
+                        <?php the_field('header_title'); ?>
+                    </h2>
+                </div>
+                <div class="header-meta">
+                    <h3>
+                        -
+                        <?php the_field('header_meta'); ?>
+                    </h3>
+                </div>
+            </div>
             <?php
 			while ( have_posts() ) : the_post();
 
@@ -48,7 +49,7 @@
 ?>
 
 
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">Contact Me<br>t: <?php the_field('contact_me_button'); ?></a></p>
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Contact Me<br>t: <?php the_field('contact_me_button'); ?></a></p>
         </div>
     </div>
 
