@@ -10,10 +10,18 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
         <div class="container">
-            <h2>Felix Treitler</h2>
-            <h3>Clinical Social Work/Therapist, LICSW, USTA, USPTA</h3>
-            <img src="wp-content/themes/felix/images/felix.jpg">
-
+<div class="header-container">
+    <div class="header-title">
+        <h2>
+            <?php the_field('header_title'); ?>
+        </h2>
+    </div>
+    <div class="header-meta">
+        <h3>
+            - <?php the_field('header_meta'); ?>
+        </h3>
+    </div>
+</div>
             <?php
 			while ( have_posts() ) : the_post();
 
@@ -40,7 +48,7 @@
 ?>
 
 
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Contact Me<br>t: <?php the_field('contact_me_button'); ?></a></p>
         </div>
     </div>
 
@@ -49,18 +57,18 @@
         <div class="row">
             <div class="col-md-4">
                 <h2>Groups</h2>
-                <p>Meets every Saturday, 9-10am at 71 Adams Street, Milton, MA. Walk-ins Welcome.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                <p>Bereavement Group meets every Saturday, 9-10am at 71 Adams Street, Milton, MA. Walk-ins Welcome.</p>
+                <p><a class="btn btn-default" href="<?php the_field('groups_link'); ?>" role="button">View more &raquo;</a></p>
             </div>
             <div class="col-md-4">
                 <h2>Activity Therapy</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                <p>I have also developed Activity Therapy. This incorporates the clients' favorite activity, creative interest, or sport into the therapy itself...</p>
+                <p><a class="btn btn-default" href="<?php the_field('activity_therapy_link'); ?>" role="button">View more &raquo;</a></p>
             </div>
             <div class="col-md-4">
-                <h2>Testimonials</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                <h2>Family and Marital Therapy</h2>
+                <p>Coming Soon...</p>
+                <p><a class="btn btn-default" href="<?php the_field('family_and_marital_therapy_link'); ?>" role="button">Learn More &raquo;</a></p>
             </div>
         </div>
 
