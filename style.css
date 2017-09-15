@@ -228,6 +228,10 @@ object {
 
 
 body {
+  background-image: url(images/landscape.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .97;
   padding-top: 50px;
   padding-bottom: 20px;
   width: 75%;
@@ -283,12 +287,12 @@ body {
 }
 
 .navbar-brand {
-    background-color: #0074e1;/*#1b9ce5;*/
+    background-color: #889ab2;/*#1b9ce5*/
     color: white;
 }
 
 .navbar-inverse {
-    background-color: #0074e1;
+    background-color: #889ab2;/*#0074e1*/;
 } 
 
 .navbar-inverse .navbar-brand {
@@ -296,13 +300,22 @@ body {
 }
 
 .jumbotron {
-    background-color: #6cdaee;
+    background-color: #cfcbb8;
+    margin-bottom: 0;
 }
 
 .btn-primary {
     color: #fff;
     background-color: #f79e02;
     border-color: #2e6da4;
+}
+
+
+.bottom-container {
+    margin: 0;
+    width: 100%;
+    background-color: white;
+}
 
 /*6cdaee
 f79e02*/
