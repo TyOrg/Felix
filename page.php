@@ -18,7 +18,6 @@
                 </div>
                 <div class="header-meta">
                     <h3>
-                        -
                         <?php the_field('header_meta'); ?>
                     </h3>
                 </div>
@@ -67,8 +66,8 @@
                 <p><a class="btn btn-default" href="<?php the_field('activity_therapy_link'); ?>" role="button">View more &raquo;</a></p>
             </div>
             <div class="col-md-4">
-                <h2>Family and Marital Therapy</h2>
-                <p>Coming Soon...</p>
+                <h2>Family and Couples Therapy</h2>
+                <p>One of my specialties is Couples and Family Therapy. I have extensive training in Systemic Family Therapy...</p>
                 <p><a class="btn btn-default" href="<?php the_field('family_and_marital_therapy_link'); ?>" role="button">Learn More &raquo;</a></p>
             </div>
         </div>
