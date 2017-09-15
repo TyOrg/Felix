@@ -227,15 +227,16 @@ object {
 
 
 
-
-
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+  width: 75%;
+  margin: auto;
 }
 
 .admin-bar .navbar-fixed-top {
-	margin-top: 30px;
+    width: 75%;
+    margin: 30px auto;
 }
 
 
