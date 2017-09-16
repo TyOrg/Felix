@@ -15,12 +15,13 @@
                     <h2>
                         <?php the_field('header_title'); ?>
                     </h2>
+                    <p class="header-meta"><?php the_field('header_meta'); ?></p>
                 </div>
-                <div class="header-meta">
+            <!--    <div class="header-meta">
                     <h3>
-                        <?php the_field('header_meta'); ?>
+                        
                     </h3>
-                </div>
+                </div>-->
             </div>
             <?php
 			while ( have_posts() ) : the_post();
