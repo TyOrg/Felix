@@ -228,10 +228,6 @@ object {
 
 
 body {
-  background-image: url(images/landscape.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  opacity: .9;
   padding-top: 20px;
   padding-bottom: 20px;
   width: 75%;
@@ -251,6 +247,10 @@ a {
   color: #241b11;
 }
 
+.container {
+    padding: 0;
+}
+
 #mycontentid a {
     text-decoration: none;
 }
@@ -261,6 +261,7 @@ a {
 
 .h2-style a {
     text-decoration: none;
+    color: #fff;
 }
 
 .admin-bar .navbar-fixed-top {
@@ -299,20 +300,51 @@ a {
 	font-weight: bold;
 }
 
-.header-title {
-   display: inline-block;
+.header-container { 
+    /*background-image: url(http://localhost:8888/FelixTreitler/wp-content/themes/felix/images/landscape.jpg);*/
+    background-image: url(images/landscape.jpg);
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 175px;
+    padding: 15px;
 }
 
-.header-meta {
-    /* display: inline-block; */
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.header-title {
+   display: inline-block;
+   */padding-left: 15px;*/
+}
+
+.header-title p {
+    color: #fff;
 }
 
 #mycontentid {
     margin-top: 3em;
+    padding: 0 15px;
 }
 
 .navbar-brand {
     background-color: #fff;/*#889ab2*/
+}
+
+.navbar-brand a:hover {
+    background-color: red;
+    color: red;
+}
+
+
+.navbar-header {
+    padding-left: 15px;
+}
+
+.navbar-header a {
+    font-weight: bold;
 }
 
 .navbar-inverse {
@@ -334,18 +366,25 @@ a {
 
 .btn-primary {
     color: #fff;
-    background-color: #f79e02;
-    border-color: #2e6da4;
+    background-color: green;
+    border-color: #484a33;
 }
 
+.btn:hover {
+  background-color: #cfcbb8;
+}
 
 .bottom-container {
     margin: 0;
+    padding: 15px;
     width: 100%;
     background-color: white;
 }
 
-
+.header-right {
+    float: right;
+    margin: 18px;
+}
 
 
 /* Media Queries */
@@ -368,7 +407,7 @@ a {
 
 @media (min-width:1024px) {
 	.alignleft {
-        margin-bottom: 11em;   
+          
     }
     
     .sub-menu {

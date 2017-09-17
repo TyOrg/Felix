@@ -11,17 +11,23 @@
     <div class="jumbotron">
         <div class="container">
             <div class="header-container">
+                <!--<figure><img src="http://localhost:8888/FelixTreitler/wp-content/themes/felix/images/landscape.jpg"><figcaption>here</figcaption></figure>-->
                 <div class="header-title">
-                    <h2 class="h2-style"><a href="https://felixtreitler.org">
-                        <?php the_field('header_title'); ?>
-                        </a></h2>
-                    <p class="header-meta"><?php the_field('header_meta'); ?></p>
+                    <h2 class="h2-style">
+                        <a href="https://felixtreitler.org">
+                            <?php the_field('header_title'); ?>
+                        </a>
+                    </h2>
+                    <p class="header-meta">
+                        <?php the_field('header_meta'); ?>
+                    </p>
                 </div>
-            <!--    <div class="header-meta">
+                <!--    <div class="header-meta">
                     <h3>
                         
                     </h3>
                 </div>-->
+                <div class="header-right"><a class="btn btn-primary btn-lg" href="#" role="button">Contact Me<br>t: <?php the_field('contact_me_button'); ?></a></div>
             </div>
             <?php
 			while ( have_posts() ) : the_post();
@@ -49,7 +55,7 @@
 ?>
 
 
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Contact Me<br>t: <?php the_field('contact_me_button'); ?></a></p>
+                <div></div>
         </div>
     </div>
 
@@ -57,7 +63,7 @@
         <!-- Example row of columns -->
         <div class="row">
             <div class="col-md-4">
-                <h2 class="h2-style">Groups</h2>
+                <h2 class="h2-style">Group Therapy</h2>
                 <p>Bereavement Group meets every Saturday, 9-10am at 71 Adams Street, Milton, MA. Walk-ins Welcome.</p>
                 <p><a class="btn btn-default" href="<?php the_field('groups_link'); ?>" role="button">View more &raquo;</a></p>
             </div>
@@ -67,7 +73,7 @@
                 <p><a class="btn btn-default" href="<?php the_field('activity_therapy_link'); ?>" role="button">View more &raquo;</a></p>
             </div>
             <div class="col-md-4">
-                <h2 class="h2-style">Family and Couples Therapy</h2>
+                <h2 class="h2-style">Couples Therapy</h2>
                 <p>One of my specialties is Couples and Family Therapy. I have extensive training in Systemic Family Therapy...</p>
                 <p><a class="btn btn-default" href="<?php the_field('family_and_marital_therapy_link'); ?>" role="button">Learn More &raquo;</a></p>
             </div>
