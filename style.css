@@ -259,9 +259,14 @@ a {
     color: #241b11;
 }
 
-.h2-style a {
+.site-title a {
     text-decoration: none;
     color: #fff;
+}
+
+/*.h2-style a {
+    text-decoration: none;
+    color: #241b11;*/
 }
 
 .admin-bar .navbar-fixed-top {
@@ -307,7 +312,7 @@ a {
     width: 100%;
     background-size: cover;
     height: 175px;
-    padding: 15px;
+    /*padding: 15px;*/
 }
 
 img {
@@ -317,12 +322,24 @@ img {
 
 .header-title {
    display: inline-block;
-   */padding-left: 15px;*/
+   padding-left: 15px;
+}
+
+.container .title-header {
+    padding-left: 15px;
 }
 
 .header-title p {
-    color: #fff;
+    color: #241b11;
 }
+
+/*.header-title .h2-style {
+    padding: 15px;
+}
+
+.header-title .site-title {
+    padding: 3px 15px;
+}*/
 
 #mycontentid {
     margin-top: 3em;
@@ -330,7 +347,8 @@ img {
 }
 
 .navbar-brand {
-    background-color: #fff;/*#889ab2*/
+    /*background-color: #fff;*//*#889ab2*/
+    padding: 3px 0;
 }
 
 .navbar-brand a:hover {
