@@ -51,7 +51,7 @@
 
 				//get_template_part( 'template-parts/page/content', 'page' );    
 ?>
-                <h2 class="h2-style">
+                <h2 class="h2-style page-title">
                     <?php the_title(); ?>
                 </h2>
                 <div id="mycontentid" class="some classes">

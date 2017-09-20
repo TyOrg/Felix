@@ -333,6 +333,10 @@ img {
     color: #241b11;
 }
 
+.container .page-title {
+    padding-left: 15px;
+}
+
 /*.header-title .h2-style {
     padding: 15px;
 }
