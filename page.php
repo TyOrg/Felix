@@ -29,6 +29,25 @@
                 </div>-->
                 <div class="header-right"><a class="btn btn-primary btn-lg" href="#" role="button">Contact Me<br>t: <?php the_field('contact_me_button'); ?></a></div>
             </div>
+            
+            <div class="header-title">
+                    <h2 class="h2-style">
+                        <a href="https://felixtreitler.org">
+                            <?php the_field('header_title'); ?>
+                        </a>
+                    </h2>
+                    <p class="header-meta">
+                        <?php the_field('header_meta'); ?>
+                    </p>
+                </div>
+                <!--    <div class="header-meta">
+                    <h3>
+                        
+                    </h3>
+                </div>-->
+                <div class="header-right"><a class="btn btn-primary btn-lg" href="#" role="button">Contact Me<br>t: <?php the_field('contact_me_button'); ?></a></div>
+            
+            
             <?php
 			while ( have_posts() ) : the_post();
 
