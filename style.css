@@ -224,7 +224,21 @@ object {
 
 
 
+.fa-mobile {
+    font-size: 13px;
+}
 
+.telephone {
+    display: inline-block;
+    /* vertical-align: -webkit-baseline-middle; */
+    float: right;
+    padding: 15px 0 15px 10px;
+}
+
+.teleicon {
+    display: inline-block;
+    float: left;
+}
 
 
 body {
@@ -233,6 +247,7 @@ body {
   width: 75%;
   margin: auto;
   line-height: 1.5;
+  font-size: 15px;
 }
 
 p {
@@ -249,6 +264,15 @@ a {
 
 .container {
     padding: 0;
+}
+
+#mycontentid {
+    margin-top: 3em;
+    padding: 0 15px;
+}
+
+#mycontentid p {
+    font-size: 15px;
 }
 
 #mycontentid a {
@@ -320,6 +344,14 @@ img {
     max-width: 100%;
 }
 
+
+/* this class below is used for portrait images in the main body of pages */
+.alignleft {
+    border: #241b11;
+    border-style: solid;
+    border-width: thin;
+}
+
 .header-title {
    display: inline-block;
    padding-left: 15px;
@@ -331,6 +363,8 @@ img {
 
 .header-title p {
     color: #241b11;
+    font-size: 21px;
+    font-weight: 300;
 }
 
 .page-title {
@@ -345,14 +379,13 @@ img {
     padding: 3px 15px;
 }*/
 
-#mycontentid {
-    margin-top: 3em;
-    padding: 0 15px;
-}
+
 
 .navbar-brand {
     /*background-color: #fff;*//*#889ab2*/
     padding: 3px 0;
+    font-size: 30px;
+    font-family: 'Damion', cursive;
 }
 
 .navbar-brand a:hover {
@@ -401,6 +434,12 @@ img {
     padding: 15px;
     width: 100%;
     background-color: white;
+    border: 1px solid;
+    border-color: #cfcbb8;
+}
+
+.bottom-container p {
+    font-weight: 200;
 }
 
 .header-right {

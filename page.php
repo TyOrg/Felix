@@ -43,8 +43,7 @@
                         
                     </h3>
                 </div>-->
-                <div class="header-right"><a class="btn btn-primary btn-lg" href="#" role="button">Contact Me<br>t: <?php the_field('contact_me_button'); ?></a></div>
-            
+                <div class="header-right"><a class="btn btn-primary btn-lg" href="#" role="button"><div class="teleicon"><i class="fa fa-mobile fa-3x" aria-hidden="true"></i></div><div class="telephone"><?php the_field('contact_me_button'); ?></div></a></div>
             
             <?php
 			while ( have_posts() ) : the_post();
@@ -72,7 +71,6 @@
 ?>
 
 
-                <div></div>
         </div>
     </div>
 
