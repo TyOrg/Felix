@@ -235,6 +235,10 @@ object {
     padding: 15px 0 15px 10px;
 }
 
+.telephone a {
+    color: #fff;
+}
+
 .teleicon {
     display: inline-block;
     float: left;
@@ -273,6 +277,7 @@ a {
 
 #mycontentid p {
     font-size: 15px;
+    width: 80%;
 }
 
 #mycontentid a {
@@ -440,6 +445,7 @@ img {
 
 .bottom-container p {
     font-weight: 200;
+    width: 90%;
 }
 
 .header-right {
@@ -465,17 +471,23 @@ img {
 
 }
 
+@media (max-width:768px) {
+.header-right {
+    float: none;
+    }
+}
 
 @media (min-width:1024px) {
-	.alignleft {
-          
-    }
-    
-    .sub-menu {
-			
-	}
-    
+
 }
+
+@media (min-width:1030px) {
+    
+    .header-right {
+    margin: 18px 60px 18px 18px;
+    }
+}
+    
 
 @media (max-width:600px) {
     body {

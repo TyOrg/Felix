@@ -14,11 +14,11 @@
                 <!--<figure><img src="http://localhost:8888/FelixTreitler/wp-content/themes/felix/images/landscape.jpg"><figcaption>here</figcaption></figure>-->
                 <div class="header-title title-header">
                     <h2 class="h2-style site-title">
-            <a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>">
-                <?php bloginfo( 'name' ); ?>
-                                </a>
+                        <a class="navbar-brand" href="<?php bloginfo( 'url' ); ?>">
+                            <?php bloginfo( 'name' ); ?>
+                        </a>
                     </h2>
-               
+
                 </div>
                 <!--    <div class="header-meta">
                     <h3>
@@ -27,24 +27,34 @@
                 </div>-->
                 <div class="header-right"></div>
             </div>
-            
+
             <div class="header-title">
-                    <h2 class="h2-style">
-                        <a href="https://felixtreitler.org">
-                            <?php the_field('header_title'); ?>
-                        </a>
-                    </h2>
-                    <p class="header-meta">
-                        <?php the_field('header_meta'); ?>
-                    </p>
-                </div>
-                <!--    <div class="header-meta">
+                <h2 class="h2-style">
+                    <a href="https://felixtreitler.org">
+                        <?php the_field('header_title'); ?>
+                    </a>
+                </h2>
+                <p class="header-meta">
+                    <?php the_field('header_meta'); ?>
+                </p>
+            </div>
+            <!--    <div class="header-meta">
                     <h3>
                         
                     </h3>
                 </div>-->
-                <div class="header-right"><a class="btn btn-primary btn-lg" href="#" role="button"><div class="teleicon"><i class="fa fa-mobile fa-3x" aria-hidden="true"></i></div><div class="telephone"><?php the_field('contact_me_button'); ?></div></a></div>
-            
+            <div class="header-right">
+                <div class="btn btn-primary btn-lg" role="button">
+                    <div class="teleicon"><i class="fa fa-mobile fa-3x" aria-hidden="true"></i></div>
+                    <div class="telephone">
+                        <a href="tel:+1-781-888-4067">
+                            <?php the_field('contact_me_button'); ?>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
             <?php
 			while ( have_posts() ) : the_post();
 
