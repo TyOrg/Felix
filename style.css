@@ -246,16 +246,20 @@ object {
 
 
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 75%;
+  width: 80%;
   margin: auto;
   line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
   font-size: 15px;
 }
 
 p {
   color: #241b11;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
 }
 
 .jumbotron p {

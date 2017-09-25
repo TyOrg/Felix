@@ -9,8 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Damion|Libre+Barcode+39+Text" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
     <title>Felix Treitler</title>
 
