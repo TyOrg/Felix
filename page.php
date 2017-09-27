@@ -1,8 +1,6 @@
 <?php
 /*
-
 	Template Name: Page Main
-
 */
 ?>
     <?php get_header(); ?>

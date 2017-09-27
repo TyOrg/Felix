@@ -26,7 +26,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 .alignleft {
   float: left;
-  margin-right: 1em;
+  margin-right: 8em;
   margin-bottom: 1em;
 }
 
@@ -344,7 +344,7 @@ a {
     background-position: center;
     width: 100%;
     background-size: cover;
-    height: 175px;
+    height: 275px;
     /*padding: 15px;*/
 }
 
@@ -394,7 +394,7 @@ img {
     /*background-color: #fff;*//*#889ab2*/
     padding: 3px 0;
     font-size: 30px;
-    font-family: 'Damion', cursive;
+    font-family: 'Roboto Slab', serif;
 }
 
 .navbar-brand a:hover {
@@ -422,7 +422,7 @@ img {
 }
 
 .jumbotron {
-    background-color: #cfcbb8;
+    background-color: #dce3d9; /*#cfcbb8;*/
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 18px;
@@ -435,7 +435,7 @@ img {
 }
 
 .btn:hover {
-  background-color: #cfcbb8;
+  background-color: #dce3d9;
 }
 
 .bottom-container {
@@ -444,7 +444,7 @@ img {
     width: 100%;
     background-color: white;
     border: 1px solid;
-    border-color: #cfcbb8;
+    border-color: #dce3d9;
 }
 
 .bottom-container p {
@@ -472,6 +472,9 @@ img {
 	li:hover .sub-menu {
 		display: block;
 	}
+    .alignleft {
+    margin-right: 1em;
+    }
 
 }
 
